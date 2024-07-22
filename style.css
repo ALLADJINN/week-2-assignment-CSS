@@ -1,0 +1,76 @@
+
+
+
+
+/*below is the background color css, element selector  */
+body{
+    background-color: black;
+} 
+
+/*below is the font color for webpage, element selector  */
+p, table, h1, form, h3, li{
+    color: white;
+} 
+
+/*below is the centering for text, class selector  */
+.center-text{ 
+    text-align: center;
+    }    
+
+
+/*below is the centering and styling for the images on main page, class selector  */
+    img.displayed{
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 5px; 
+    border-radius: 30px;
+}
+
+/*below is the centering and styling for the table on main page, ID selector  */
+#center-table{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+/*below is the centering and styling for the main div on main page, class selector  */
+.container{
+    
+    display:flex;
+    align-items: center; 
+    
+    
+} 
+/*below is the centering and styling for the form on main page, element selector  */
+form{
+    
+    margin: 0 auto;
+} 
+/*below is the centering and styling for the lists on 2nd and 3rd page, class selector  */
+.center-list{
+    text-align:center;
+    list-style-position: inside; 
+    padding-left: 0;
+} 
+
+/*below is the centering and styling for the images on 2nd and 3rd page, class selector  */
+img.displayed2{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 30px; 
+    margin:auto
+    
+    
+    
+} 
+
+/*below is the centering and styling for the image on 3rd page due to sizing issues, class selector  */
+img.beefdisplay{
+    max-height: 268px; 
+    display: inline-block;
+    padding: 5px;
+    border-radius: 30px; 
+    margin:auto
+  
+}
+
